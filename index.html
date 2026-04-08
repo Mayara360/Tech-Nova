@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+
+  <div class="login-box">
+    <link rel="stylesheet" href="style.css">
+    
+    <img src="logo.png" alt="logo" class="logo">
+    <p>Entre para iniciar sua sessão</p>
+
+    <!-- 🔥 FORMULÁRIO -->
+    <form action="/login" method="POST">
+
+      <!-- Tipo de usuário -->
+      <select name="tipo" required>
+        <option value="">Selecione o tipo</option>
+        <option value="admin">Super Admin</option>
+        <option value="coordenador">coordenador</option>
+      </select>
+
+      <!-- Login -->
+      <input type="text" name="login" placeholder="Login" required>
+
+      <!-- Senha -->
+      <input type="password" name="senha" placeholder="Password" required>
+
+      <!-- Botão -->
+      <button type="submit">Entrar</button>
+
+    </form>
+
+    <a href="#">Esqueceu sua senha?</a>
+
+  </div>
+
+</div>
+
+</body>
+</html

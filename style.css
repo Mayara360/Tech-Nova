@@ -1,0 +1,112 @@
+/* Fundo */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #2c5364, #6a11cb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+   
+
+/* Caixa */
+.login-box {
+    width: 350px;
+    padding: 45px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    text-align: center;
+    color: white;
+}
+
+/* 👇 AQUI FICA A LOGO */
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Título */
+.login-box h2 {
+    margin-bottom: 5px;
+}
+
+}
+
+/* Caixa maior transparente */
+.login-box {
+    width: 350px;
+    padding: 40px;
+    border-radius: 25px;
+
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+
+    text-align: center;
+    color: white;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Título */
+.login-box h2 {
+    margin-bottom: 5px;
+}
+
+/* Texto */
+.login-box p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Inputs brancos arredondados */
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+
+    border: none;
+    border-radius: 12px;
+
+    background: white;
+    outline: none;
+}
+
+/* Botão */
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+
+    background: #4b3cff;
+    color: white;
+
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Link */
+.login-box a {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #dcdcff;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  box-sizing: border-box; 
+}
